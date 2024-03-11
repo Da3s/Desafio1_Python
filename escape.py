@@ -7,10 +7,12 @@ import math
 radio = input('Ingrese radio(km)):')
 radio = float(radio)
 
+radio = radio * 1000
+
 constante = input('Ingrese la constante g(m/s2):')
 constante = float(constante)
 
-radio = radio * 1000
+
 
 
 resultado = (math.sqrt(2*radio*constante))
