@@ -6,12 +6,16 @@
 # GT = Gastos totales
 
 
-precio = float(input('Ingrese el precio de suscripcion: '))
+precio = input('Ingrese el precio de suscripcion: ')
+precio = float(precio)
 
-usuariosNormal = float(input('Ingrese numero de usuarios normales:' ))
-usuariosPremium = float(input('Ingrese numero de usuarios premium:' ))
+usuariosNormal = input('Ingrese numero de usuarios normales:' )
+usuariosNormal = float(usuariosNormal)
+usuariosPremium = input('Ingrese numero de usuarios premium:' )
+usuariosPremium = float(usuariosPremium)
 
-gastoTotal = float(input('Ingrese gasto total:'))
+gastoTotal = input('Ingrese gasto total:')
+gastoTotal = float(gastoTotal)
 
 utilidades = (precio*usuariosNormal)+((precio*1.5)*usuariosPremium)-gastoTotal
 

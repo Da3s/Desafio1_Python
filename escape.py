@@ -4,11 +4,13 @@ import math
 
 # Declaracion de variables
 
-radio = float(input('Ingrese radio(km)):'))
+radio = input('Ingrese radio(km)):')
+radio = float(radio)
 
-constante = float(input('Ingrese la constante g(m/s2):'))
+constante = input('Ingrese la constante g(m/s2):')
+constante = float(constante)
 
-constante = constante * 1000
+radio = radio * 1000
 
 
 resultado = (math.sqrt(2*radio*constante))

@@ -4,11 +4,14 @@
 # U = Numero de usuarios
 # GT = Gastos totales
 
-precio = float(input('Ingrese el precio de suscripcion: '))
+precio = input('Ingrese el precio de suscripcion: ')
+precio = float(precio)
 
-usuarios = float(input('Ingrese numero de usuarios:' ))
+usuarios = input('Ingrese numero de usuarios:' )
+usuarios = float(usuarios)
 
-gastoTotal = float(input('Ingrese gasto total:'))
+gastoTotal = input('Ingrese gasto total:')
+gastoTotal = float(gastoTotal)
 
 utilidades = precio*usuarios-gastoTotal
 
