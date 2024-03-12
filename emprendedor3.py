@@ -13,6 +13,8 @@ gastoTotal = float(input('Ingrese gasto total: '))
 
 utilidadAnterior = float(input('Ingrese Utilidad anterior: '))
 
-utilidades = (precio*usuarios-gastoTotal)-utilidadAnterior
+utilidades = (precio*usuarios-gastoTotal)
 
-print('Su Utilidad es de:', round(utilidades,2))
+print('La razon de su utilidad actual versus la anterior es de:', round(utilidades,2))
+utilidad_actual_anterior = utilidades / utilidadAnterior
+
